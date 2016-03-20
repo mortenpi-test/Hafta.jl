@@ -1,0 +1,24 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Hafta.jl Documentation\n\n\n\n\nHafta API overview\n\n\nHarmonicOscillator\n\n\n\n\n\n\nHafta.jl Documentation\n\n\nFunctions\n\n\nIndex\n\n\n\n\n\n\n\n\n\n\nFunctions\n\n\n#\nHafta.ManyBodySystem\n \n \nType\n.\n\n\n\n\nA \nManyBodySystem\n is the abstract type that defines an pairwise interacting quantum system. It should have the following methods:\n\n\n\n\nBase.length(s::T) -\n Int\n\n\nH0(s::T, i, j) -\n Float64\n\n\nV(s::T, i, j, k, l) -\n Float64\n\n\n\n\nAdditionally, the following methods are deprecated.\n\n\n\n\nBase.size(s::T) -\n Int\n\n\n\n\n\n\nIndex\n\n\n\n\nHafta.ManyBodySystem", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#haftajl-documentation", 
+            "text": "Hafta API overview  HarmonicOscillator    Hafta.jl Documentation  Functions  Index", 
+            "title": "Hafta.jl Documentation"
+        }, 
+        {
+            "location": "/#functions", 
+            "text": "# Hafta.ManyBodySystem     Type .   A  ManyBodySystem  is the abstract type that defines an pairwise interacting quantum system. It should have the following methods:   Base.length(s::T) -  Int  H0(s::T, i, j) -  Float64  V(s::T, i, j, k, l) -  Float64   Additionally, the following methods are deprecated.   Base.size(s::T) -  Int", 
+            "title": "Functions"
+        }, 
+        {
+            "location": "/#index", 
+            "text": "Hafta.ManyBodySystem", 
+            "title": "Index"
+        }
+    ]
+}
